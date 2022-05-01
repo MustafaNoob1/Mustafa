@@ -4,7 +4,7 @@ chcp 65001 >nul
 :again
 cls
 title Geiles Tool :D
-echo  [40;34m Hi pls Login			[40;34m Made by !xvoidz シ#8675                 Username: Mustafa   Password: Hasan
+echo  [40;34m Hi pls Login			[40;34m Made by !xvoidz シ#8675                 
 echo.
 echo [40;36m ██▒   █▓ ▒█████   ██▓▓█████▄ ▒███████▒           
 echo [40;36m▓██░   █▒▒██▒  ██▒▓██▒▒██▀ ██▌▒ ▒ ▒ ▄▀░         
@@ -18,11 +18,12 @@ echo [40;31m      ░      ░ ░   ░     ░      ░ ░
 echo [40;31m     ░                 ░      ░
 echo [40;34m
 echo.
+echo Get key at: https://voidzkey.webador.de/
+echo.
 set /p user= Enter Username:
 echo.
 set /p pass= Enter Password:
-if %user% == Mustafa if %pass% == Hasan goto main
-if %user% == Tim if %pass% == Baatz goto main
+if %user% == Voidz if %pass% == Voidz123_ goto main
 echo Wrong Login, try again...
 timeout 3 >nul
 goto again

@@ -17,7 +17,7 @@ echo.
 set /p user= Enter Username:
 echo.
 set /p pass= Enter Password:
-if %user% == Mustafa if %pass% == Hasan goto main
+if %user% == Voidz if %pass% == Voidz123_ goto main
 if %user% == Tim if %pass% == Baatz goto main
 echo Wrong Login, try again...
 timeout 3 >nul
